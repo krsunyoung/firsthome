@@ -11,13 +11,15 @@
 	<context:annotation-config />
 	<context:component-scan base-package="com.fivef.homefirst.controller" />
 
-	<!--  css 오류 시 추가 해야함. 없으면 css를 가져오지 못한다.  -->
-	<mvc:annotation-driven/>
-		<!-- 서블릿 컨테이너의 디폴트 서블릿 위임 핸들러 -->
+	<!-- css 오류 시 추가 해야함. 없으면 css를 가져오지 못한다. -->
+	<mvc:annotation-driven />
+	<!-- 서블릿 컨테이너의 디폴트 서블릿 위임 핸들러 -->
 	<mvc:default-servlet-handler />
-	
+
+
+
+
 	<!-- 기본 뷰 리졸버 -->
-	
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="viewClass"
@@ -26,5 +28,5 @@
 		<property name="suffix" value=".jsp" />
 		<property name="order" value="1" />
 	</bean>
-	
+
 </beans>

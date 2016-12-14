@@ -1,0 +1,1 @@
+insert into USERS VALUES(users_seq, 'id', 'password', 'name');

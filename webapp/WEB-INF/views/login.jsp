@@ -71,18 +71,27 @@
 	
 	<section id="works"></section>
 	<div class="container">
-		<div class="row centered mt mb">
-			<h1>MENU</h1>
+		<div style="margin-top:30px" class="row centered mt mb">
+			<h1>Welcome</h1>
 			
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="work.html"><img src="${pageContext.request.contextPath }/assets/img/portfolio/folio01.png" class="img-responsive"></a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="work.html"><img src="${pageContext.request.contextPath }/assets/img/portfolio/folio02.png" class="img-responsive"></a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="work.html"><img src="${pageContext.request.contextPath }/assets/img/portfolio/folio03.png" class="img-responsive"></a>
-			</div>
+			<div class="row centered mt mb"  >
+				<form style="text-align:left; margin-left: 430px; margin-top:-50px" action="${pageContext.request.contextPath }/join">
+			
+					<label class="block-label" for ="id">아이디 　:　</label>
+					<input id="id" type="text"/>
+					<br>
+					<br>
+					
+					<label class="block-label" for ="password">패스워드 :　</label>
+					<input id="password" type="password"/>
+					<br>
+					<br>
+					
+					<input style="margin-left:130px" type="submit" value="Join">
+				</form>	
+		    </div>
+		  
+	
 			
 		</div><!--/row -->
 	</div><!--/container -->

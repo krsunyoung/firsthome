@@ -48,8 +48,8 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="${pageContext.request.contextPath }">Home</a></li>
-            <li><a href="about.html">Join</a></li>
-            <li><a href="#works">Login</a></li>
+            <li><a href="${pageContext.request.contextPath }/joinform">Join</a></li>
+            <li><a href="${pageContext.request.contextPath }/loginform">Login</a></li>
             <li><a href="#works">About</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -71,24 +71,24 @@
 	
 	<section id="works"></section>
 	<div class="container">
-		<div class="row centered mt mb">
+		<div style="margin-top:30px" class="row centered mt mb">
 			<h1>Join</h1>
 			
 			<div class="row centered mt mb"  >
-				<form style="text-align:left; margin-left: 430px" action="${pageContext.request.contextPath }/join">
+				<form style="text-align:left; margin-left: 430px; margin-top:-50px" action="${pageContext.request.contextPath }/join">
 			
-					<label class="block-label" for ="name">이　름    　:　</label>
-					<input path="name"/>
+					<label class="block-label" for ="name">닉네임    　:　</label>
+					<input id="name" name="name" type="text"/>
 					<br>
 					<br>
 					<label class="block-label" for ="id">아이디 　:　</label>
-					<input path="id"/>
+					<input id="id" name="id" type="text"/>
 					<input id="btn-checkid" type="button" value="중복체크">
 					<br>
 					<br>
 					
 					<label class="block-label" for ="password">패스워드 :　</label>
-					<input path="password"/>
+					<input id="password" name="password" type="password"/>
 					<br>
 					<br>
 					
