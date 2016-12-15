@@ -50,7 +50,7 @@
             <li class="active"><a href="${pageContext.request.contextPath }">Home</a></li>
             <li><a href="${pageContext.request.contextPath }/joinform">Join</a></li>
             <li><a href="${pageContext.request.contextPath }/loginform">Login</a></li>
-            <li><a href="#works">About</a></li>
+            <li><a href="${pageContext.request.contextPath }/about">About</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

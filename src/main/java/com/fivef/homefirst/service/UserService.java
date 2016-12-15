@@ -16,4 +16,10 @@ public class UserService {
 		userDao.insert(vo);
 	}
 	
+	public UserVo login(String id, String password){
+		UserVo userVo = null;
+		userVo = userDao.getIdAndPassword(id, password);
+		return userVo;
+	}
+	
 }

@@ -75,15 +75,15 @@
 			<h1>Welcome</h1>
 			
 			<div class="row centered mt mb"  >
-				<form style="text-align:left; margin-left: 430px; margin-top:-50px" action="${pageContext.request.contextPath }/join">
+				<form style="text-align:left; margin-left: 430px; margin-top:-50px" action="${pageContext.request.contextPath }/login">
 			
 					<label class="block-label" for ="id">아이디 　:　</label>
-					<input id="id" type="text"/>
+					<input id="id" name="id" type="text"/>
 					<br>
 					<br>
 					
 					<label class="block-label" for ="password">패스워드 :　</label>
-					<input id="password" type="password"/>
+					<input id="password" name="password" type="password"/>
 					<br>
 					<br>
 					

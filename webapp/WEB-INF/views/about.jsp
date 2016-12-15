@@ -10,16 +10,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="${pageContext.request.contextPath }/assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-    <title>INSTANT</title>
+    <title>INSTANT - Bootstrap Theme</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="${pageContext.request.contextPath }/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="${pageContext.request.contextPath }/assets/css/style.css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath }/assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -43,86 +43,65 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-         <!--   <a class="navbar-brand" href="${pageContext.request.contextPath }">HOME</a>-->
         </div>
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
+         <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="${pageContext.request.contextPath }">Home</a></li>
             <li><a href="${pageContext.request.contextPath }/joinform">Join</a></li>
             <li><a href="${pageContext.request.contextPath }/loginform">Login</a></li>
-            <li><a href="#works">About</a></li>
+            <li><a href="${pageContext.request.contextPath }/about">About</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
 
 
-	<div id="headerwrap">
+	<div id="aboutwrap">
 	    <div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-lg-offset-3">
-					<h4>HELLO PEOPLE, MY NAME IS</h4>
-					<h1>SUN YOUNG</h1>
-					<h4>WEB SITE</h4>
 				</div>
-			</div><!--/row -->
+			</div><! --/row -->
 	    </div> <!-- /container -->
-	</div><!--/headerwrap -->
+	</div><! --/aboutwrap -->
 	
-	<section id="works"></section>
 	<div class="container">
-		<div style="margin-top:30px" class="row centered mt mb">
-			<h1>Join</h1>
-			
-			<div class="row centered mt mb"  >
-				<form style="text-align:left; margin-left: 430px; margin-top:-50px" action="${pageContext.request.contextPath }/join">
-			
-					<label class="block-label" for ="name">닉네임    　:　</label>
-					<input id="name" name="name" type="text"/>
-					<br>
-					<br>
-					<label class="block-label" for ="id">아이디 　:　</label>
-					<input id="id" name="id" type="text"/>
-					<input id="btn-checkid" type="button" value="중복체크">
-					<br>
-					<br>
-					<label class="block-label" for ="password">패스워드 :　</label>
-					<input id="password" name="password" type="password"/>
-					<br>
-					<br>
-					<input style="margin-left:130px" type="submit" value="Join">
-					
-				</form>	
-		    </div>
-		  
-		</div><!--/row -->
-	</div><!--/container -->
+		<div class="row centered mt mb">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h2>SUN YOUNG</h2>
+				<p>즐거운 하루 보내십시오. 사이트 판단은 나중으로... </p>
+				<p>그럼 이만..</p>
+				<p>2016.12.12 부터 2016.12.18일까지 완성 계획 </p>
+			</div>
+
+		</div><! --/row -->
+	</div><! --/container -->
 	
 	<div id="social">
 		<div class="container">
 			<div class="row centered">
 				<div class="col-lg-2">
-					<a href="http://www.naver.com"><i class="fa fa-dribbble"></i></a>
+					<a href="#"><i class="fa fa-dribbble"></i></a>
 				</div>
 				<div class="col-lg-2">
-					<a href="https://ko-kr.facebook.com"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-facebook"></i></a>
 				</div>
 				<div class="col-lg-2">
-					<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
 				</div>
 				<div class="col-lg-2">
-					<a href="https://kr.linkedin.com"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
 				</div>
 				<div class="col-lg-2">
-					<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
 				</div>
 				<div class="col-lg-2">
-					<a href="https://www.tumblr.com/"><i class="fa fa-tumblr"></i></a>
+					<a href="#"><i class="fa fa-tumblr"></i></a>
 				</div>
 			
-			</div><!--/row -->
-		</div><!--/container -->
-	</div><!--/social -->
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/social -->
 
 	<div id="footerwrap">
 		<div class="container">
@@ -139,7 +118,7 @@
 				</div>
 			</div>
 		</div>
-	</div><!--/footerwrap -->
+	</div><! --/footerwrap -->
 	
 
 
