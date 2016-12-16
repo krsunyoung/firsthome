@@ -19,9 +19,9 @@ public class UserDao {
 		sqlSession.insert("user.insert",vo);
 	}
 	
-	public UserVo getIdAndPassword(String id, String password){
+	public UserVo getIdPassword(String id, String password){
 
-		Map<String, Object>map = new HashMap<String, Object>();
+		Map<String, Object> map = new HashMap<String, Object>();
 		map.put("id", id);
 		map.put("password", password);
 		

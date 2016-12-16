@@ -61,9 +61,9 @@
 			<div class="row">
 				<div class="col-lg-6 col-lg-offset-3">
 				</div>
-			</div><! --/row -->
+			</div><!--/row -->
 	    </div> <!-- /container -->
-	</div><! --/aboutwrap -->
+	</div><!--/aboutwrap -->
 	
 	<div class="container">
 		<div class="row centered mt mb">
@@ -74,51 +74,20 @@
 				<p>2016.12.12 부터 2016.12.18일까지 완성 계획 </p>
 			</div>
 
-		</div><! --/row -->
-	</div><! --/container -->
+		</div><!--/row -->
+	</div><!--/container -->
 	
 	<div id="social">
 		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-dribbble"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-facebook"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-twitter"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-instagram"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-tumblr"></i></a>
-				</div>
-			
-			</div><! --/row -->
-		</div><! --/container -->
-	</div><! --/social -->
+			<c:import url="/WEB-INF/views/includes/social.jsp" />
+		</div><!--/container -->
+	</div><!--/social -->
 
 	<div id="footerwrap">
 		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-4">
-					<p><b>WEB SITE</b></p>
-				</div>
-			
-				<div class="col-lg-4">
-					<p>Living in the amazing SEOUL.</p>
-				</div>
-				<div class="col-lg-4">
-					<p>Enjoy~</p>
-				</div>
-			</div>
+			<c:import url="/WEB-INF/views/includes/footer.jsp" />
 		</div>
-	</div><! --/footerwrap -->
+	</div><!--/footerwrap -->
 	
 
 

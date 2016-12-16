@@ -36,23 +36,7 @@
     <!-- Static navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-         <!--   <a class="navbar-brand" href="${pageContext.request.contextPath }">HOME</a>-->
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="${pageContext.request.contextPath }">Home</a></li>
-            <li><a href="${pageContext.request.contextPath }/joinform">Join</a></li>
-            <li><a href="${pageContext.request.contextPath }/loginform">Login</a></li>
-            <li><a href="${pageContext.request.contextPath }/about">About</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+        <c:import url="/WEB-INF/views/includes/navigation.jsp" />
       </div>
     </div>
 
@@ -89,44 +73,13 @@
 	
 	<div id="social">
 		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-2">
-					<a href="http://www.naver.com"><i class="fa fa-dribbble"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="https://ko-kr.facebook.com"><i class="fa fa-facebook"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="https://kr.linkedin.com"><i class="fa fa-linkedin"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="https://www.tumblr.com/"><i class="fa fa-tumblr"></i></a>
-				</div>
-			
-			</div><!--/row -->
+			<c:import url="/WEB-INF/views/includes/social.jsp" />
 		</div><!--/container -->
 	</div><!--/social -->
 
 	<div id="footerwrap">
 		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-4">
-					<p><b>WEB SITE</b></p>
-				</div>
-			
-				<div class="col-lg-4">
-					<p>Living in the amazing SEOUL.</p>
-				</div>
-				<div class="col-lg-4">
-					<p>Enjoy~</p>
-				</div>
-			</div>
+			<c:import url="/WEB-INF/views/includes/footer.jsp" />
 		</div>
 	</div><!--/footerwrap -->
 	
