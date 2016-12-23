@@ -55,19 +55,37 @@
 	
 	<section id="works"></section>
 	<div class="container">
-		<div class="row centered mt mb">
-			<h1>MENU</h1>
+		<div style="margin-top:30px" class="row centered mt mb">
 			
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="${pageContext.request.contextPath }/board"><img src="${pageContext.request.contextPath }/assets/img/portfolio/folio01.png" class="img-responsive"></a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="work.html"><img src="${pageContext.request.contextPath }/assets/img/portfolio/folio02.png" class="img-responsive"></a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="work.html"><img src="${pageContext.request.contextPath }/assets/img/portfolio/folio03.png" class="img-responsive"></a>
-			</div>
+			<table class="tbl-ex">
+					<tr>
+						<th>번호</th>
+						<th>제목</th>
+						<th>글쓴이</th>
+						<th>조회수</th>
+						<th>작성일</th>
+						<th>&nbsp;</th>
+					</tr>
+					<c:set var="count" value=""/> 
+						<tr>   
+									<td class="left" >
+									<a href="${pageContext.request.contextPath }">타이틀입니다</a></td>
+							
+							<td>유저네임</td>
+							<td>조회수</td>
+							<td>등록일</td>
+							
+							<td>
+							<a href="${pageContext.request.contextPath }" class="del">삭제</a>
+							</td>
+							
+						</tr>
+				</table>
 			
+		
+			
+			
+		  
 		</div><!--/row -->
 	</div><!--/container -->
 	
@@ -82,8 +100,6 @@
 			<c:import url="/WEB-INF/views/includes/footer.jsp" />
 		</div>
 	</div><!--/footerwrap -->
-	
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
